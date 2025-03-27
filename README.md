@@ -3,6 +3,29 @@
 ## Mini-Project
 This mini-project has been made in the context of the Programming and Data Analysis class at PSE.
 
+**Before going into the project, make sure to run the following code:**
+```python
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import scipy.stats as stats
+import math
+from data_exploratory import dataset_info
+from data_visualisation import plot_accidents_by_day
+from data_visualisation import plot_avg_accidents_weekday_vs_weekend
+from data_visualisation import plot_accidents_by_road_type
+from data_visualisation import plot_accidents_by_hour
+from data_visualisation import plot_accidents_by_light_condition
+from data_visualisation import plot_accident_severity_by_light_condition
+from regression import compare_models_aic
+from regression import likelihood_ratio_test
+from regression import compute_pseudo_r2
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from regression import compute_vif
+```
+
 # Key Factors Influencing Road Accidents in Belgium and Policies for Mitigation
 
 ## Introduction
